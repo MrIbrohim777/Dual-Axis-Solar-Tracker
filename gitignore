@@ -1,0 +1,56 @@
+# Arduino IDE
+*.elf
+*.hex
+*.bin
+.arduino/
+build/
+.vscode/
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+venv/
+
+# IDE & Editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*~
+.temp/
+
+# CAD & 3D model backups
+*.stl.bak
+*.step~
+*.blend1
+*.fcstd~
+
+# Documentation builds
+site/
+.docs/
+
+# OS files
+Thumbs.db
+.DS_Store
